@@ -38,8 +38,9 @@ public class RouterTest {
                 .exchange()
                 .expectStatus()
                 .isOk()
+                .expectHeader().contentType(MediaType.APPLICATION_JSON)
                 .expectBody(String.class)
-                .isEqualTo("GET /businesses");
+                .isEqualTo("[{\"name\":\"b1\"},{\"name\":\"b2\"},{\"name\":\"b3\"},{\"name\":\"b4\"}]");
     }
 
     @Test
@@ -51,7 +52,8 @@ public class RouterTest {
                 .exchange()
                 .expectStatus()
                 .isOk()
+                .expectHeader().contentType(MediaType.APPLICATION_JSON)
                 .expectBody(String.class)
-                .isEqualTo("GET /businesses/1");
+                .isEqualTo("{\"name\":\"b1\"}");
     }
 }

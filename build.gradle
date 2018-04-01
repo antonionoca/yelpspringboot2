@@ -18,6 +18,7 @@ apply plugin: 'io.spring.dependency-management'
 group = 'com.antonionoca'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 bootJar {
 baseName = 'gs-reactive-rest-service'
@@ -31,6 +32,9 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-webflux')
+	compile("org.springframework.boot:spring-boot-starter-data-jpa")
+	compile("com.h2database:h2")
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('io.projectreactor:reactor-test')
 }
