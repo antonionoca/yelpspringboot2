@@ -1,6 +1,6 @@
-package com.antonionoca.yelpspringboot2.handler;
+package com.antonionoca.springboot2.handler;
 
-import com.antonionoca.yelpspringboot2.model.repository.BusinessRepository;
+import com.antonionoca.springboot2.model.repository.BusinessRepository;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.BodyInserters;

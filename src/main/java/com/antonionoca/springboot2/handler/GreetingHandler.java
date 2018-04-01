@@ -1,4 +1,4 @@
-package com.antonionoca.yelpspringboot2.handler;
+package com.antonionoca.springboot2.handler;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;

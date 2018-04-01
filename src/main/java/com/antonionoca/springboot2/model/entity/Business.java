@@ -1,4 +1,4 @@
-package com.antonionoca.yelpspringboot2.model.entity;
+package com.antonionoca.springboot2.model.entity;
 
 
 import javax.persistence.Entity;

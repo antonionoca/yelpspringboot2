@@ -1,12 +1,11 @@
-package com.antonionoca.yelpspringboot2.router;
+package com.antonionoca.springboot2.router;
 
-import com.antonionoca.yelpspringboot2.constants.Endpoint;
-import com.antonionoca.yelpspringboot2.handler.BusinessHandler;
-import com.antonionoca.yelpspringboot2.handler.GreetingHandler;
+import com.antonionoca.springboot2.constants.Endpoint;
+import com.antonionoca.springboot2.handler.BusinessHandler;
+import com.antonionoca.springboot2.handler.GreetingHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
-import org.springframework.web.reactive.function.server.RequestPredicates;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;

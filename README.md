@@ -1,4 +1,4 @@
-# Spring Boot 2: Reactive Yelp
+# Spring Boot 2: Reactive Yelp Clone
 
 ## API
 
@@ -23,12 +23,18 @@ DELETE /comments/:id
 Spring Boot 2
 Webflux
 Reactor
-In-memory MongoDB
+H2 database
 Actuators
 Sleuth and Zipkin
 Docker
 
 ## TODO
+
+Actuators
+Sleuth
+POST businesses
+Comment.
+Use projection on GET /businesses to not return comments
 
 Embedded mongodb
 https://dzone.com/articles/spring-boot-with-embedded-mongodb

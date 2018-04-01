@@ -21,8 +21,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 bootJar {
-baseName = 'gs-reactive-rest-service'
-version =  '0.1.0'
+    baseName = 'gs-reactive-rest-service'
+    version =  '0.1.0'
 }
 
 repositories {

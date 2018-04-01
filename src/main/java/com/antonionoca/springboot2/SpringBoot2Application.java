@@ -1,7 +1,7 @@
-package com.antonionoca.yelpspringboot2;
+package com.antonionoca.springboot2;
 
-import com.antonionoca.yelpspringboot2.model.entity.Business;
-import com.antonionoca.yelpspringboot2.model.repository.BusinessRepository;
+import com.antonionoca.springboot2.model.entity.Business;
+import com.antonionoca.springboot2.model.repository.BusinessRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -11,12 +11,12 @@ import org.springframework.context.annotation.Bean;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class Yelpspringboot2Application {
+public class SpringBoot2Application {
 
-	private static final Logger log = LoggerFactory.getLogger(Yelpspringboot2Application.class);
+	private static final Logger log = LoggerFactory.getLogger(SpringBoot2Application.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(Yelpspringboot2Application.class, args);
+		SpringApplication.run(SpringBoot2Application.class, args);
 	}
 
 	@Bean

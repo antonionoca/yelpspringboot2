@@ -1,6 +1,6 @@
-package com.antonionoca.yelpspringboot2.router;
+package com.antonionoca.springboot2.router;
 
-import com.antonionoca.yelpspringboot2.constants.Endpoint;
+import com.antonionoca.springboot2.constants.Endpoint;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
